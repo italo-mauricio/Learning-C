@@ -4,14 +4,10 @@
 int main ()
 {
 
-    int i;
-    int a;
-    float b;
+    int i; int a; int b;
 
 
-    i = 1;
-    a = 2;
-    b = 2.22;
+    i = 1; a = 2; b = 25;
     printf("%d", a * i + b);
 
     return 0;
