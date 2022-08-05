@@ -32,6 +32,7 @@ int main()
     laranjavini = 6;
 
     resultado = laranjaitalo / laranjavini;
+    
 
     printf("O resultado foi: %i", resultado);
 
