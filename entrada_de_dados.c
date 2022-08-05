@@ -11,7 +11,17 @@ int main(){
     printf("Digite um numero: ");
     scanf("%i", &num1);
 
-    printf("%i", num1); 
+    printf("%i\n", num1); 
+
+
+    char nome [40] = "Italo Mauricio";
+    int idade = 24;
+    char sexo = 'M';
+    float altura = 1.79;
+
+    printf(" Nome: %s \n idade: %i \n sexo: %c \n altura: %.2f", nome, idade, sexo, altura);
+
+
 
     return 0;
 
