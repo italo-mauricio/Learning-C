@@ -6,7 +6,7 @@ int main(){
     // tipo da variável = valor padrão;
 
     int num , num2 = 0;
-
+    double numero_Verificador; 
 
 
     return 0;
