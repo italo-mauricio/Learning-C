@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+
+int main(){
+
+    // tipo da variável = valor padrão;
+
+    int num , num2 = 0;
+
+
+
+    return 0;
+
+
+
+
+}
