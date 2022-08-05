@@ -11,6 +11,6 @@ int main(){
     printf("Qual a sua idade: ");
     scanf("%i", &idade);
 
-    printf(" Voce tem %s\n Voce tem %i anos\n", nome, idade);
+    printf(" Voce se chama %s\n Voce tem %i anos\n", nome, idade);
     return 0;
 }
