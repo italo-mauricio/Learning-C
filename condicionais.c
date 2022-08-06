@@ -11,10 +11,7 @@ int main(){
         <= menor ou igual
         != não igual ou diferente
         == igual
-
-
-
-
+        = atribuição
 
     */
 
@@ -23,13 +20,18 @@ int main(){
 
 
     int a, b;
-    a = 2;
-    b = 3;
 
-    if (3 > 2){
-        printf("3 eh maior que 2");
+    printf("Insira o valor de a: ");
+    scanf("%d", &a);
+    printf("Insira o valor de b: ");
+    scanf("%d", &b);
+
+    if (a > b){
+        printf("%d eh maior que %d", a, b);
     }
-
+    if (b > a){
+        printf("%d eh maior que %d", b, a);
+    }
 
     return 0;
 
