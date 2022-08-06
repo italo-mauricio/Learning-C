@@ -32,6 +32,10 @@ int main(){
     if (b > a){
         printf("%d eh maior que %d", b, a);
     }
+    if (a == b){
+
+        printf("%d e igual a %d", a, b);
+    }
 
     return 0;
 
