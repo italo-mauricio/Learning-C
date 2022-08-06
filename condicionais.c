@@ -26,17 +26,19 @@ int main(){
     printf("Insira o valor de b: ");
     scanf("%d", &b);
 
+
     if (a > b){
-        printf("%d eh maior que %d", a, b);
-    }
-    if (b > a){
-        printf("%d eh maior que %d", b, a);
-    }
-    if (a == b){
 
-        printf("%d e igual a %d", a, b);
+        printf("%d e maior que %d", a, b);
     }
 
+    else if(a == b){
+
+        printf("%d eh igual a %d ", a, b);
+    }
+    else{
+        printf("%d eh menor %d", a, b);
+    }
     return 0;
 
 }
