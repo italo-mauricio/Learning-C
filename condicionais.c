@@ -4,6 +4,24 @@
 
 int main(){
 
+    /*
+        > maior que
+        < menor que
+        >= maior ou igual
+        <= menor ou igual
+        != não igual ou diferente
+        == igual
+
+
+
+
+
+    */
+
+
+
+
+
     int a, b;
     a = 2;
     b = 3;
