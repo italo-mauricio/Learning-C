@@ -12,6 +12,13 @@ int main(){
     for (num = 0; num < 20; num ++)
     {
         printf("My name is Bart \n");
+        if (num == 5)
+        {
+            break;
+        }
+        
+        
+        
     }
 
 
