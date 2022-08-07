@@ -9,7 +9,7 @@ int main(){
 
     int num;
 
-    for (num = 0; num < 20; num = num + 1)
+    for (num = 0; num < 20; num ++)
     {
         printf("My name is Bart \n");
     }
