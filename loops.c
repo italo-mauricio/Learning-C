@@ -16,11 +16,22 @@ int main(){
         {
             break;
         }
-        
-        
-        
     }
 
+    // WHILE
 
+    int num1;
+    num1 = 0;
 
+    while (num1 < 10){
+
+        printf("ola mundo");
+        num1++;
+    }
+
+    // DO WHILE
+
+    
+
+    return 0;
 }
