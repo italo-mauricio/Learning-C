@@ -20,7 +20,7 @@ int main(){
 
     // WHILE
 
-    int num1;
+    /* int num1;
     num1 = 0;
 
     while (num1 < 10){
@@ -28,9 +28,22 @@ int main(){
         printf("ola mundo");
         num1++;
     }
-
+    */
     // DO WHILE
 
+    int num2;
+
+    num = 0;
+
+    do
+    {
+
+        printf("Ola mundo\n");
+        num2++;
+        
+    }
+    while (num2 < 10);
+    
     
 
     return 0;
