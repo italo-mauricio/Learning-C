@@ -7,7 +7,9 @@ int main()
     char letra;
 
     printf("Digite uma letra: ");
-    scanf("%c", &letra);
+    letra = getchar();
+
+    printf("Lido: %c\n", letra);
 
     return 0;
 
