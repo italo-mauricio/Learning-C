@@ -33,7 +33,7 @@ int main(){
     }
 
     else if(a == b){
-
+        // Aqui é praticamente a mesma coisa que o Python, o Else if, seria o Elif no python
         printf("%d eh igual a %d ", a, b);
     }
     else{
