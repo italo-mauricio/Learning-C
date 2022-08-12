@@ -11,6 +11,13 @@ int main(){
     k >>= 3;, é equivalente a k = k >> 3;
     z &= flag; é equivalente a z = z & flag;
 
+    i = i + 1  pode ser escrito como i = ++i
+    i = i- 1 pode ser escrito como i = --i
+    z = a; a = a + 1 pode ser escrito como z = a++
+    z = a; a = a - 1 pode ser escrito como z = a--
+    a = a + 1; z = a; pode ser escrito como z = ++a
+    a = a - 1; z = a; pode ser escrito como z = --a
+
 
 
 
