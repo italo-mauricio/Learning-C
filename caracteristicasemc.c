@@ -17,7 +17,7 @@ int main(){
     printf("idade: %d\npeso: %.1f\naltura: %.2f\nSexo: %c\n", idade, peso, altura, sexo);
 
 
-
+    // Basicamente este programa está trabalhando com problemas de formatação de caracterers
 
     return 0;
 
