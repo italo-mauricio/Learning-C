@@ -17,7 +17,7 @@ int main(){
         printf("Segunda");
         break;
     case 3:
-        printf("Terça");
+        printf("Terca");
         break;
     case 4:
         printf("Quarta");
