@@ -34,6 +34,9 @@ int main(){
         printf("Numero invalido");
         break;
     }
+
+    printf("Lido: %d", &num);
+
     return 0;
 
    
