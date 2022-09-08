@@ -37,7 +37,7 @@ int main(){
 
     printf("Lido: %d", &num);
 
-    return 0;
+    return 0;  
 
    
 
