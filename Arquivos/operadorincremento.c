@@ -5,10 +5,15 @@
 
 int main(){
 
-    int contador = 10;
+    int resultado, contador = 10;
 
-    printf("Valor: %d\n", contador++);  // Precisa ser colocado a esquerda da variável
-    printf("Valor: %d\n", contador);
+    // contador++;
+    // contador += 1;   São 3 formas de fazer a mesma coisa
+    // contador = contador + 1;
+
+    // printf("Valor: %d\n", contador++);  // Precisa ser colocado a esquerda da variável
+    resultado = contador++; // para se tornar 11 o incremento precisa ficar a esquerda e não a direita
+    printf("Valor: %d\n", resultado);
 
 
     return 0;
