@@ -11,16 +11,20 @@
         multiplicação = *
         divisão = /
 
+        Conversão de tipos
+
 
 */
 
 int main(){
 
 
-    printf("\nsoma: %d\n", 10 + 20);
-    printf("\nSubtracao: %d\n", 10 - 20);
-    printf("\nMultiplicacao: %d\n", 10 * 20);
-    printf("\nDivisao: %f\n", 10.0 / 20);
+    int a = 10, b = 20;
+
+    printf("\nsoma: %d\n", a + b);
+    printf("\nSubtracao: %d\n", a - b);
+    printf("\nMultiplicacao: %d\n", a * b);
+    printf("\nDivisao: %f\n", (float)a / b);
 
 
     return 0;
