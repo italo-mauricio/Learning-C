@@ -18,6 +18,9 @@ int main(void){
     printf("O tamanho de F eh: %f\n", sizeof f);
     printf("O tamanho de C eh: %lu bytes / %lu bits\n", sizeof c, sizeof c *8);
 
+    c = 255;
+    printf("Valor de c: %d\n", c);
+
     return 0;
 
 }
