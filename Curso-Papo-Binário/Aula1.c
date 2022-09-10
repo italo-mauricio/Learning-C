@@ -14,7 +14,7 @@ int main(void){
     int ret = 0;
 
     ret = printf("Ola mundo\n");
-    printf("retorno da printf anterior %d\n", ret);  // verificando o retorno da variável ret
+    printf("%d - %d - %d - %d\n", ret, 10, 0xa, 'A');  // verificando o retorno da variável ret
 
     return 0;
 
