@@ -1,5 +1,16 @@
 #include<stdio.h>
 
+/*
+
+        Aula 1, sobre printf e funções
+
+
+
+*/
+
+
+
+
 int main(void){
 
     int ret = 0;
