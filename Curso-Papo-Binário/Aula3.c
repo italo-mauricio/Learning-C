@@ -10,7 +10,6 @@
 int main(){
 
     int i = INT_MAX;
-
     printf("O tamanho de i (int): %zu bytes / %zu bits\n", sizeof i, sizeof i *8);
     printf("Valor de i: %d\n", i);
 
@@ -20,3 +19,4 @@ int main(){
 
     return 0;
 }
+
