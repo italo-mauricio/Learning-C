@@ -13,10 +13,11 @@ int main(){
 
 
     b = true;
-    b = false;
+    //b = false;
 
     printf("O tamanho de b: %lu\n", sizeof b);
 
+    printf("O valor de b eh: %i\n", b);
 
     return 0;
 
