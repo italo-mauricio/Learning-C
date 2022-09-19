@@ -9,12 +9,14 @@
 
 int main(){
 
-    int i = INT_MAX;
+    unsigned int i = UINT_MAX;
 
-    i += 2; // i = i + 1 ou i += 1  é a mesma coisa
+    // i += 2; // i = i + 1 ou i += 1  é a mesma coisa
 
     printf("O tamanho de i (int): %zu bytes / %zu bits\n", sizeof i, sizeof i *8);
-    printf("Valor de i: %d\n", i);
+    printf("Valor de i: %u\n", i);
+    printf("Valor de i: %x\n", i);
+    printf("Valor de i: %o\n", i);
 
 
 
