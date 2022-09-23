@@ -3,26 +3,104 @@
 #include <stdlib.h>
 
 
+char telaprincipal(void);
+int calculadora(void);
 
-int main(){
+int main(void){
 
+    char op;
+    do{
+        op = telaprincipal();
+        switch(op){
+
+            case '1':
+                calculadora();
+                break;
+            case '2':
+                printf("Ola");
+                break;
+
+            default:
+                printf("Opcao invalida!");
+                break;
+
+
+
+        }
+
+    } while (op != '0');
+
+
+
+
+    return op;
+
+
+
+}
+
+
+
+
+int calculadora(void){
+
+    char esc;
     int num1, num2, soma, sub, multi, divi ;
-    printf("Por favor digite dois numeros: ");
-    scanf("%i%i", &num1, &num2);
+    printf("Por favor digite um numero: ");
+    scanf("%d", &num1);
+    printf("Por favor digite outro numero: ");
+    scanf("%d", &num2);
+
 
     soma = num1 +  num2;
     sub = num1 - num2;
     multi = num1 * num2;
     divi = num1 / num2;
 
-    printf("A soma eh: \n", soma);
-    printf("A subtracao eh: \n", sub);
-    printf("A multiplicacao eh: \n", multi);
-    printf("A divisao eh: \n", divi);
+    printf("A soma eh: %d\n", soma);
+    printf("A subtracao eh: %d\n", sub);
+    printf("A multiplicacao eh: %d\n", multi);
+    printf("A divisao eh: %d\n", divi);
+
+    printf("Press START for continue...");
+    scanf("%c", &esc);
+    getchar();
 
 
-    return 0;
+    return esc;
 
 }
 
 
+
+char telaprincipal(void){
+
+    
+    char op;
+    system("cls");
+    printf(" ==================== Menu ===================== | \n");
+    printf(" ----------------------------------------------- | \n");
+    printf("                                                 | \n");
+    printf("                1 - Calculadora                  | \n");
+    printf("                2 - Return                       | \n");
+    printf("                                                 | \n");
+    printf("                                                 | \n");
+    printf(" ----------------------------------------------- | \n");
+    printf(" =============================================== | \n");
+    printf(" Escolha uma opcao: ");
+    scanf("%c", &op);
+    getchar();
+
+    return op;
+
+
+
+
+
+
+
+
+
+
+
+}
