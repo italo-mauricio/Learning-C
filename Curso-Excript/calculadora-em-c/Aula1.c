@@ -16,14 +16,11 @@ int main(void){
             case '1':
                 calculadora();
                 break;
-            case '2':
-                printf("Ola");
-                break;
-
+          
             default:
                 printf("Opcao invalida!");
                 break;
-
+ 
 
 
         }
@@ -77,12 +74,12 @@ char telaprincipal(void){
 
     
     char op;
-    system("cls");
+    system("clear");
     printf(" ==================== Menu ===================== | \n");
     printf(" ----------------------------------------------- | \n");
     printf("                                                 | \n");
     printf("                1 - Calculadora                  | \n");
-    printf("                2 - Return                       | \n");
+    printf("                0 - Return                       | \n");
     printf("                                                 | \n");
     printf("                                                 | \n");
     printf(" ----------------------------------------------- | \n");
