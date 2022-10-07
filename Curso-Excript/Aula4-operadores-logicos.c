@@ -23,8 +23,17 @@ int main(){
 
    int i = 10;
 
-   printf("\n\t%i\n", i != 1);
-   printf("\n\t%i\n", i == 1);
+   printf("Digite um número != 5: \n");
+   scanf("%i", &i);
+
+   if (i != 5){
+        printf("\nA expressão eh:\n");
+        printf("\nTRUE");
+
+   }else{
+        printf("\nA expressão eh:\n");
+        printf("\nFALSE");    
+   }
 
 
    return 0;
@@ -35,6 +44,7 @@ int main(){
    2) negativo -> 0
    3) comparação negativa !=
    4) comparação positiva ==
+   5) ! é um sinal de negação, igual a expressão NOT
    
    */
 
