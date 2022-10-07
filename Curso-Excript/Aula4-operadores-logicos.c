@@ -28,11 +28,11 @@ int main(){
 
    if (i != 5){
         printf("\nA expressão eh:\n");
-        printf("\nTRUE");
+        printf("TRUE\n");
 
    }else{
-        printf("\nA expressão eh:\n");
-        printf("\nFALSE");    
+        printf("\nA expressão eh:\n");  
+        printf("FALSE\n");    
    }
 
 
