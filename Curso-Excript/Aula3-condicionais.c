@@ -6,9 +6,12 @@
 int main(){
 
     char c;
+    int i;
+    
 
     printf("Digite um caracter em letra minuscula: ");
     scanf("%c", &c);
+
 
     if (c == tolower(c)){
 
@@ -17,9 +20,17 @@ int main(){
     }else
     {
 
-        printf("Você digitou em letra maiuscula");
+        printf("\nVocê digitou em letra maiuscula\n");
     }
 
 
+    printf("Digite um numero: ");
+    scanf("%d", &i);
+
+    if (i >= 0 ){
+
+        printf("voce digitou um numero!\n");
+    }
+    
     return 0;
 }
