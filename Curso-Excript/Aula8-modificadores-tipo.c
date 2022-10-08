@@ -3,7 +3,13 @@
 
 
 int main(){
+    
 
+  
+    
+    
+    
+    
     int i = 10;
 
 
@@ -19,8 +25,8 @@ int main(){
 
 
 
-
     /*
+    
     
     1) char
     2) int
