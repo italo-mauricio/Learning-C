@@ -51,8 +51,6 @@ int main(){
 
             }
                     
-               
-
         }
         
         printf("O resultado eh: %f\n", resultado);
