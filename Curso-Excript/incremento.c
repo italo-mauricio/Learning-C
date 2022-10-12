@@ -17,6 +17,14 @@ int main(){
     printf("%i",  -- i2);
     printf("%i", i2--);
 
+    int x = 0;
+    x = x + 1; // incrementar quantas unidades desejamos
+    x += 1; // incrementar quantas unidades desejamos
+
+    ++x; // só podemos incrementar uma única unidade
+
+    printf("%i", x);
+
     return 0;
 }
 
@@ -29,7 +37,6 @@ int main(){
 
     Pos -> O valor será incrementado/decrementado na próxima instrução
 
-
-
-
 */
+
+  
