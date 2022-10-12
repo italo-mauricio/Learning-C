@@ -12,6 +12,7 @@ int main(){
 
     do
     {
+        system("cls");
         num1 = num2 = resultado = 0;
         printf("\n 1 - Somar\n");
         printf(" 2 - Subtrair\n");
@@ -54,7 +55,10 @@ int main(){
 
         }
         
-        printf("O resultado eh: %f", resultado);
+        printf("O resultado eh: %f\n", resultado);
+
+        system("Pause");
+        system("cls");
    
       
     } while (op != '0');
