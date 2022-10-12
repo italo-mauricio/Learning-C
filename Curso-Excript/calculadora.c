@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<ctype.h>
+#include <conio.h>
 
 
 
@@ -18,8 +19,13 @@ int main(){
         printf(" 4 - Dividir\n");
 
         printf("Informe a operacao: \n");
-        op = getchar();
+        op = getche();
+        printf("\t\t\t>>> ");
+        if (op > '4'){
+            printf("Opcao invalida!\n");
+            return main();
 
+        }
         printf("Digite o primeiro numero:\n\t ");
         scanf("%f", &num1);
         printf("Digite o segundo numero:\n\t ");
