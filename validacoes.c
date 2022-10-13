@@ -3,7 +3,7 @@
 
 int main(void) {
 
-  char email[50]={"abc@xyz.se"};
+  char email[50]={"abc@xyz.com"};
   int tam=strlen(email);
   int arroba = 0, ponto = 0, antesPonto = 0, depoisPonto = 0, i;
 
